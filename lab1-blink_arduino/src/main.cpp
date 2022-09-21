@@ -15,6 +15,10 @@
 #define LED_BLUE PB0   
                         // is connected
 #define SHORT_DELAY 250 // Delay in milliseconds
+#define LED_DELAY 500
+#define LED2_DELAY 500
+#define SPACE_DELAY 1000
+
 #ifndef F_CPU
 # define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
 #endif
@@ -41,28 +45,33 @@
  **********************************************************************/
 int main(void)
 {
-    uint8_t led_value = LOW;  // Local variable to keep LED status
+  uint8_t led_value = LOW; 
 
     // Set pin where on-board LED is connected as output
-    pinMode(LED_GREEN, OUTPUT);
-    pinMode(LED_BLUE, OUTPUT);
-
+  pinMode(LED_BLUE, OUTPUT);
 
     // Infinite loop
-    while (1)
+  while (1)
     {
-        // Change LED value
-        if (led_value == LOW)
-            led_value = HIGH;
-        else
-            led_value = LOW;
-
-        // Pause several milliseconds
-        _delay_ms(SHORT_DELAY);
-        // Turn ON/OFF on-board LED
-        digitalWrite(LED_GREEN, led_value);
+      // Generate a lettre `A` Morse code
+        led_value = HIGH; 
         digitalWrite(LED_BLUE, led_value);
+         _delay_ms(250);
+        led_value = LOW;
+        digitalWrite(LED_BLUE, led_value);
+         _delay_ms(500);
+        led_value = HIGH;
+        digitalWrite(LED_BLUE, led_value);
+         _delay_ms(250);
+        led_value = LOW; 
+        digitalWrite(LED_BLUE, led_value);
+         _delay_ms(1000);
+  
+
+        
+
     }
+
     // Will never reach this
     return 0;
 }
