@@ -63,7 +63,6 @@ int main(void)
         digitalWrite(LED_GREEN, led_value);
         digitalWrite(LED_BLUE, led_value);
     }
-t Y
     // Will never reach this
     return 0;
 }
