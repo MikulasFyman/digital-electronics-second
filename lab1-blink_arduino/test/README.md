@@ -1,4 +1,4 @@
-# Lab 1: Mikulas Fyman
+# Lab 1: Mikuláš Fyman
 
 ### Morse code
 
