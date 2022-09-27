@@ -7,6 +7,7 @@
 ```c
 #define PB0 8
 #define LED_BLUE PB0
+
 int main(void)
 {
   uint8_t led_value = LOW; 
