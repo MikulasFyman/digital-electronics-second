@@ -3,8 +3,8 @@
 ### Analog-to-Digital Conversion
 
 1. Complete table with voltage divider, calculated, and measured ADC values for all five push buttons.
-  ![your figure](pictures/left.jpg)
-    ![your figure](pictures/select.jpg)
+ <img width="937" alt="image" src="https://user-images.githubusercontent.com/99393884/198002327-56dde7a1-7d61-43f5-8cd3-49f269179204.png">
+
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** | **ADC value (measured, hex)** |
    | :-: | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
