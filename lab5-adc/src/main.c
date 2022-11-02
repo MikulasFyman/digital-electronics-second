@@ -145,7 +145,7 @@ ISR(ADC_vect)
     lcd_gotoxy(8,0);
     lcd_puts("       ");
     lcd_gotoxy(8,0);
-    lcd_puts(string/1023);
+    lcd_puts(string);
 
     itoa(value, string, 16);
     lcd_gotoxy(13,0);
