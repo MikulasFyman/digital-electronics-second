@@ -46,11 +46,12 @@ The goal of the project is cooperation in pairs, further study of the topic, des
 
 ![Schema](Pictures/schema.png)
 
-#### servo
-Servo je elektromagnetické zařízení, které podle hodnoty vstupního signálu, nejčastěji PWM, umožňuje otáčet hřídelí. Zjednodušeně se dá říci, že se jedná o motor, který umožňuje kontrolovat přesnou pozici hřídele. Servo očekává, že na vstupu dostane signál každých 20 ms. Pokud bude hodnota tohoto vstupního signálu korespondovat s aktuálním pootočením hřídele, tak ke změně pootočení nedochází a servo se snaží udržet na aktuální pozici. Délka samotného signálu (nejčastěji PWM) určuje, jak moc se hřídel pootočí. 
 
-Arduino Uno
-...
+#### Arduino Uno
+Arduino Uno je mikrokontrolérová vývojová deska fungující na čipu ATmega328 (0. Deska disponuje 6-ti analogovými vstupy, 14-ti digitálními I/O vstupy a 6 z nich se dá použít jako PWM výstup, 16 MHz krystalem, USB 2 typ B konektorem, napájecím konektorem a rozhraním ICSP . Vývojovou desku zle napájet pomocí USB portu nebo externím stejnosměrným zdrojem o napětí 6÷12 V. Maximální proud na jeden konektor pracující na napětí 5 V je 40 mA a 50 mA pro 3,3 V piny.
+
+#### Servo
+Servo je elektromagnetické zařízení, které podle hodnoty vstupního signálu, nejčastěji PWM, umožňuje otáčet hřídelí. Zjednodušeně se dá říci, že se jedná o motor, který umožňuje kontrolovat přesnou pozici hřídele. Servo očekává, že na vstupu dostane signál každých 20 ms. Pokud bude hodnota tohoto vstupního signálu korespondovat s aktuálním pootočením hřídele, tak ke změně pootočení nedochází a servo se snaží udržet na aktuální pozici. Délka samotného signálu (nejčastěji PWM) určuje, jak moc se hřídel pootočí. 
 
 Joystick
 ...
