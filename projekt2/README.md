@@ -75,7 +75,7 @@ Analogový joystick je modul, který nám umožňuje snímat pohyb ve 2 směrech
 4. **Source:** [main.c](https://github.com/marekcrn/digital-electronics-2/blob/main/labs/projekt2/projekt2/src/main.c)
 
 ## Video
-
+https://youtu.be/4VQnRvzJcvU
 
 
 ## References
