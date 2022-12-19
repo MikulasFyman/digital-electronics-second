@@ -46,7 +46,7 @@ The goal of the project is cooperation in pairs, further study of the topic, des
 
 ![Schema](Pictures/schema.png)
 
-Servo
+####Servo
 Servo je elektromagnetické zařízení, které podle hodnoty vstupního signálu, nejčastěji PWM, umožňuje otáčet hřídelí. Zjednodušeně se dá říci, že se jedná o motor, který umožňuje kontrolovat přesnou pozici hřídele. Servo očekává, že na vstupu dostane signál každých 20 ms. Pokud bude hodnota tohoto vstupního signálu korespondovat s aktuálním pootočením hřídele, tak ke změně pootočení nedochází a servo se snaží udržet na aktuální pozici. Délka samotného signálu (nejčastěji PWM) určuje, jak moc se hřídel pootočí. 
 
 Arduino Uno
